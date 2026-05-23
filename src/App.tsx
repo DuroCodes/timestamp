@@ -71,7 +71,7 @@ function formatStampDate(date: Date) {
   const month = pad(date.getMonth() + 1);
   const day = pad(date.getDate());
 
-  return `${year}${month}${day}`;
+  return `${year}/${month}/${day}`;
 }
 
 function loadImage(file: File) {
